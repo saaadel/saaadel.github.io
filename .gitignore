@@ -1,12 +1,53 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
 /.idea/
+/.idea_modules/
 *.ipr
 *.iml
 *.iws
-/out/
-/.idea_modules/
+.c9/
+.settings/
+.project
+.classpath
+*.launch
+*.sublime-workspace
 /atlassian-ide-plugin.xml
 /com_crashlytics_export_strings.xml
 /crashlytics.properties
 /crashlytics-build.properties
 /fabric.properties
+
+# compiled output
+/dist
+/out/
+/out-tsc
+/tmp
+
+# dependencies
+/node_modules
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
 
